@@ -19,7 +19,7 @@ const images = [
 const galleryRef = document.querySelector('#gallery')
 
 function makeGallery(images) {
-  return images.map(({url, alt}) => `<li class = "gallery_item"><img src="${url}" alt="${alt}"></li>`).join('')
+  return images.map(({url, alt}) => `<li class = "gallery_item"><img src="${url}" alt="${alt}" width="200"></li>`).join('')
 }
 
 galleryRef.insertAdjacentHTML('beforeend', makeGallery(images))

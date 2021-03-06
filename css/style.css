@@ -17,3 +17,7 @@
 #validation-input.invalid {
   border-color: #f44336;
 }
+
+div {
+  margin: 20px;
+}

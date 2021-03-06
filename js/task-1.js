@@ -1,6 +1,6 @@
 const categoryRef = document.querySelector('#categories')
-
 const categoryItems = categoryRef.querySelectorAll('.item')
+
 console.log(`Here is ${categoryItems.length} categories`);
 
 categoryItems.forEach(el => {
